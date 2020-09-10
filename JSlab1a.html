@@ -1,0 +1,49 @@
+<DOCTYPE html>
+<html lang="en">
+<head>
+
+   <meta charset="UTF-8">
+   <meta name="description" content="">
+   <meta name="keywords" content="">
+   
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <style>
+       
+    <title>Cleveland Codes</title> 
+	  
+   </style>
+
+   
+   
+   <script> 
+       "use strict";
+	   var userName = prompt("What is youe name? ");
+	   var testScr1 = prompt("What was the score of your first test? ");
+	   var testScr2 = prompt("What was the score of your second test? ");
+	   var testScr3 = prompt("What was the score of your third test? ");
+	   
+	   testScr1 = parseInt(testScr1);
+	   testScr2 = parseInt(testScr2);
+	   testScr3 = parseInt(testScr3);
+	   
+	   var total = testScr1 + testScr2 + testScr3;
+	   var average = total/3;
+	   
+	   
+	   document.writeln("Hello " + userName + "<br />");
+	   document.writeln("Test 1: " + testScr1 + "<br />");
+	   document.writeln("Test 2: " + testScr2 + "<br />");
+	   document.writeln("Test 3: " + testScr3 + "<br />");
+	   document.writeln("The average score was " + average.toFixed(2));
+	   
+   </script>
+   
+</head>
+
+<body>
+
+</body>
+		 
+
+</html>

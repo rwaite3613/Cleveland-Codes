@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+   <meta charset="UTF-8">
+   <meta name="description" content="">
+   <meta name="keywords" content="">
+   
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <style>
+       
+    <title>Cleveland Codes</title> 
+	  
+   </style>
+
+   <title> </title>
+   <pre>
+   <script> 
+      
+	 var myInput = "";
+	 var min = 0;
+	 var max = 0;
+	 var count = 0;
+	 
+	 while (myInput != "-999") {
+	     myInput = prompt("Enter a number between 1 and 100: " );
+			  if (myInput != "-999") {
+			    count++;
+			    if (count == 1) {
+				   max = myInput;
+				   min = myInput;
+				} else {
+				    if (myInput > max) {
+					    max = myInput;
+							    
+					} else if (myInput < min) { 
+					   min = myInput;
+					
+				}		 
+		 
+		 
+		 } 
+	 
+	    }
+	   }
+	   document.writeln("You entered " + count + " numbers");
+	   document.writeln("The min is " + min);
+	   document.writeln("The max is " + max);
+   </script>
+   </pre>
+</head>
+
+<body>
+   <h2>TITLE</h2>
+
+</body>
+		 
+
+</html>
