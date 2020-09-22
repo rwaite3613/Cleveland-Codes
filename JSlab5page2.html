@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+   <meta charset="UTF-8">
+   <meta name="description" content="">
+   <meta name="keywords" content="">
+   
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <style>
+       
+    <title>Cleveland Codes</title> 
+	  
+   </style>
+		   
+   
+   <script> 
+       "use strict";
+	window.onload = function() {
+	   document.getElementById("close").onclick = closeWindow;
+	   var ht = screen.height;
+	   var wd = screen.width;
+	   document.getElementById("mesg").innerHTML = "Screen width = " + wd + "<br />Screen height = "+ ht;	
+	}
+	
+	function closeWindow() {
+	    window.close();
+	}   
+	 
+   </script>
+   
+</head>
+
+<body>
+<h1>Hello</h1>
+<p id= "mesg"><p>
+<p><button id= "close">CLOSE</button></p>
+
+</body>
+		 
+
+</html>
